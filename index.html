@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 聊天助手</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>AI 聊天助手</h1>
+        </header>
+        
+        <main class="chat-main">
+            <div class="chat-messages" id="chatMessages">
+                <!-- 消息将在这里动态添加 -->
+            </div>
+        </main>
+        
+        <footer class="chat-footer">
+            <form id="chatForm" class="chat-form">
+                <textarea
+                    id="messageInput"
+                    class="message-input"
+                    placeholder="输入您的消息..."
+                    rows="1"
+                ></textarea>
+                <button type="submit" class="send-button">
+                    发送
+                </button>
+            </form>
+        </footer>
+    </div>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
